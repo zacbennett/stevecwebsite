@@ -11,6 +11,8 @@
 
 #aboutContainer {
   display: flex;
+  margin: 0 auto;
+  width: 75%;
 }
 
 #aboutContainer>div {
@@ -18,7 +20,7 @@
 }
 
 #aboutContainer img {
-  width: 60%;
+  width: 70%;
 }
 
 #photoContainer div {
