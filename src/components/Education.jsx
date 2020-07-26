@@ -2,6 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import ArticlePreview from './article-preview'
 import { graphql } from 'gatsby'
+import get from 'lodash/get'
 
 function Education() {
   const education = get(this, 'props.data.allContentfulEducation.edges')

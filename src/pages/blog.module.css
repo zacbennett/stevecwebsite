@@ -8,3 +8,24 @@
   font-size: 2em;
   overflow: hidden;
 }
+
+#aboutContainer {
+  display: flex;
+}
+
+#aboutContainer>div {
+  width: 50%;
+}
+
+#aboutContainer img {
+  width: 60%;
+}
+
+#photoContainer div {
+  font-size: 50px;
+}
+
+#photoContainer div i:first-child {
+  margin-right: 40px;
+  margin-left: 20px;
+}

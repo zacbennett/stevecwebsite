@@ -1,0 +1,46 @@
+#projectContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 350px 350px;
+  grid-gap: 20px;
+}
+
+#projectContainer img {
+  max-height: 350px;
+  max-width: 580px;
+  z-index: 2;
+}
+
+.projectPreview {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 25px;
+  height: 100%;
+  width: 100%;
+}
+
+.projectPreview>img {
+  position: absolute;
+  left: 0;
+  /* todo i think most of these are useless */
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+.projectPreview>header {
+  position: absolute;
+  left: 0;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+.projectPreview>img:hover {
+  opacity: 0;
+}

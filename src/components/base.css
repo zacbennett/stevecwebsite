@@ -7,11 +7,10 @@
 }
 
 body {
-  font-family: "Avenir", Tahoma, Arial, Helvetica, sans-serif;
+  font-family: "Open Sans", Helvetica, sans-serif;
   font-size: 1em;
   line-height: 1.65;
   color: #373F49;
-  background: #eee;
   margin: 0;
 }
 
@@ -44,9 +43,13 @@ a {
   margin: 0;
   padding: 0;
   list-style: none;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  grid-gap: 5vmin;
+  display: flex;
+  flex-direction: column;
+}
+
+.article-list>div>img {
+  height: 200px;
+  width: 200px;
 }
 
 /**

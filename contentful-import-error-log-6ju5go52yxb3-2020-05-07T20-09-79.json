@@ -1,0 +1,266 @@
+[
+  {
+    "ts": "2020-05-08T03:09:47.988Z",
+    "level": "error",
+    "error": {
+      "name": "AssetProcessingTimeout",
+      "message": "Asset is taking longer then expected to process.",
+      "entity": {
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "6ju5go52yxb3"
+            }
+          },
+          "id": "4shwYI3POEGkw0Eg6kcyaQ",
+          "type": "Asset",
+          "createdAt": "2020-05-08T03:09:21.946Z",
+          "updatedAt": "2020-05-08T03:09:21.946Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "createdBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "1Ff7oTwVu9tAuRMOL5woQD"
+            }
+          },
+          "updatedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "1Ff7oTwVu9tAuRMOL5woQD"
+            }
+          },
+          "publishedCounter": 0,
+          "version": 1
+        },
+        "fields": {
+          "title": {
+            "en-US": "Man in the fields"
+          },
+          "description": {
+            "en-US": "Tattooed man walking in a field"
+          },
+          "file": {
+            "en-US": {
+              "upload": "https://images.contentful.com/28p9vvm1oxuw/4shwYI3POEGkw0Eg6kcyaQ/eeaa6df85fb4452ea69ad18c98ffc015/felix-russell-saw-112140.jpg",
+              "fileName": "felix-russell-saw-112140.jpg",
+              "contentType": "image/jpeg"
+            }
+          }
+        }
+      },
+      "stacktrace": [
+        "AssetProcessingTimeout: Asset is taking longer then expected to process.",
+        "/Users/stevechen/Desktop/development/gatsby-contentful-starter/node_modules/contentful-management/dist/contentful-management.node.js:11713:21",
+        "processTicksAndRejections (internal/process/task_queues.js:97:5)"
+      ]
+    }
+  },
+  {
+    "ts": "2020-05-08T03:09:48.166Z",
+    "level": "error",
+    "error": {
+      "name": "AssetProcessingTimeout",
+      "message": "Asset is taking longer then expected to process.",
+      "entity": {
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "6ju5go52yxb3"
+            }
+          },
+          "id": "6Od9v3wzLOysiMum0Wkmme",
+          "type": "Asset",
+          "createdAt": "2020-05-08T03:09:21.951Z",
+          "updatedAt": "2020-05-08T03:09:21.951Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "createdBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "1Ff7oTwVu9tAuRMOL5woQD"
+            }
+          },
+          "updatedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "1Ff7oTwVu9tAuRMOL5woQD"
+            }
+          },
+          "publishedCounter": 0,
+          "version": 1
+        },
+        "fields": {
+          "title": {
+            "en-US": "Woman with black hat"
+          },
+          "description": {
+            "en-US": "Woman wearing a black hat"
+          },
+          "file": {
+            "en-US": {
+              "upload": "https://images.contentful.com/28p9vvm1oxuw/6Od9v3wzLOysiMum0Wkmme/95675d379a1284015a8210ca66cc53a5/cameron-kirby-88711.jpg",
+              "fileName": "cameron-kirby-88711.jpg",
+              "contentType": "image/jpeg"
+            }
+          }
+        }
+      },
+      "stacktrace": [
+        "AssetProcessingTimeout: Asset is taking longer then expected to process.",
+        "/Users/stevechen/Desktop/development/gatsby-contentful-starter/node_modules/contentful-management/dist/contentful-management.node.js:11713:21",
+        "processTicksAndRejections (internal/process/task_queues.js:97:5)"
+      ]
+    }
+  },
+  {
+    "ts": "2020-05-08T03:09:49.745Z",
+    "level": "error",
+    "error": {
+      "name": "AssetProcessingTimeout",
+      "message": "Asset is taking longer then expected to process.",
+      "entity": {
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "6ju5go52yxb3"
+            }
+          },
+          "id": "7orLdboQQowIUs22KAW4U",
+          "type": "Asset",
+          "createdAt": "2020-05-08T03:09:21.962Z",
+          "updatedAt": "2020-05-08T03:09:21.962Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "createdBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "1Ff7oTwVu9tAuRMOL5woQD"
+            }
+          },
+          "updatedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "1Ff7oTwVu9tAuRMOL5woQD"
+            }
+          },
+          "publishedCounter": 0,
+          "version": 1
+        },
+        "fields": {
+          "title": {
+            "en-US": "Sparkler"
+          },
+          "description": {
+            "en-US": "John with Sparkler"
+          },
+          "file": {
+            "en-US": {
+              "upload": "https://images.contentful.com/28p9vvm1oxuw/7orLdboQQowIUs22KAW4U/a97cd3b3415b51c5facfa6f4d184b650/matt-palmer-254999.jpg",
+              "fileName": "matt-palmer-254999.jpg",
+              "contentType": "image/jpeg"
+            }
+          }
+        }
+      },
+      "stacktrace": [
+        "AssetProcessingTimeout: Asset is taking longer then expected to process.",
+        "/Users/stevechen/Desktop/development/gatsby-contentful-starter/node_modules/contentful-management/dist/contentful-management.node.js:11713:21",
+        "processTicksAndRejections (internal/process/task_queues.js:97:5)"
+      ]
+    }
+  },
+  {
+    "ts": "2020-05-08T03:09:49.883Z",
+    "level": "error",
+    "error": {
+      "name": "AssetProcessingTimeout",
+      "message": "Asset is taking longer then expected to process.",
+      "entity": {
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "6ju5go52yxb3"
+            }
+          },
+          "id": "4NzwDSDlGECGIiokKomsyI",
+          "type": "Asset",
+          "createdAt": "2020-05-08T03:09:21.932Z",
+          "updatedAt": "2020-05-08T03:09:21.932Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "createdBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "1Ff7oTwVu9tAuRMOL5woQD"
+            }
+          },
+          "updatedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "1Ff7oTwVu9tAuRMOL5woQD"
+            }
+          },
+          "publishedCounter": 0,
+          "version": 1
+        },
+        "fields": {
+          "title": {
+            "en-US": "City"
+          },
+          "description": {
+            "en-US": "City pictured from the sky"
+          },
+          "file": {
+            "en-US": {
+              "upload": "https://images.contentful.com/28p9vvm1oxuw/4NzwDSDlGECGIiokKomsyI/d04a5154fa2e2ab02857950639325684/denys-nevozhai-100695.jpg",
+              "fileName": "denys-nevozhai-100695.jpg",
+              "contentType": "image/jpeg"
+            }
+          }
+        }
+      },
+      "stacktrace": [
+        "AssetProcessingTimeout: Asset is taking longer then expected to process.",
+        "/Users/stevechen/Desktop/development/gatsby-contentful-starter/node_modules/contentful-management/dist/contentful-management.node.js:11713:21",
+        "processTicksAndRejections (internal/process/task_queues.js:97:5)"
+      ]
+    }
+  }
+]

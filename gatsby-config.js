@@ -25,7 +25,7 @@ if (!spaceId || !accessToken) {
 
 module.exports = {
   siteMetadata: {
-    title: 'Steve Chen',
+    title: 'Steven Chen',
   },
   pathPrefix: '/gatsby-contentful-starter',
   plugins: [

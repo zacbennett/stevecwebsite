@@ -1,26 +1,32 @@
-import React from 'react'
-import { graphql } from 'gatsby'
-import get from 'lodash/get'
-import { Helmet } from 'react-helmet'
-import Hero from '../components/hero'
-import Layout from '../components/layout'
-import ArticlePreview from '../components/article-preview'
-import RecentProjects from '../components/RecentProjects.jsx'
-import Education from '../components/Education.jsx'
+import React from "react"
+import { graphql } from "gatsby"
+import get from "lodash/get"
+import { Helmet } from "react-helmet"
+import Hero from "../components/hero"
+import Layout from "../components/layout"
+import ArticlePreview from "../components/article-preview"
+import Projects from "../components/Projects.jsx"
+import Education from "../components/Education.jsx"
+import Header from "../components/header.js"
 
 class RootIndex extends React.Component {
   render() {
-    const siteTitle = get(this, 'props.data.site.siteMetadata.title')
-    const projects = get(this, 'props.data.allContentfulBlogPost.edges')
-    const [author] = get(this, 'props.data.allContentfulPerson.edges')
-    const education = get(this, 'props.data.allContentfulEducation.edges')
+    const siteTitle = get(this, "props.data.site.siteMetadata.title")
+    const projects = get(this, "props.data.allContentfulBlogPost.edges")
+    const [author] = get(this, "props.data.allContentfulPerson.edges")
+    const education = get(this, "props.data.allContentfulEducation.edges")
+    console.log(projects)
     return (
       <Layout location={this.props.location}>
-        <div style={{ background: '#fff' }}>
+        <div style={{ background: "#fff" }}>
           <Helmet title={siteTitle} />
-          <Hero data={author.node} />
-          <RecentProjects projects={projects} />
+          <Header />
+          <Projects projects={projects} />
+          {/* <Hero data={author.node} /> */}
+          {/* <ToolBox />
           <Education />
+          <Work />
+          <Contact /> */}
         </div>
       </Layout>
     )
@@ -44,7 +50,7 @@ export const pageQuery = graphql`
           publishDate(formatString: "MMMM Do, YYYY")
           tags
           heroImage {
-            fluid(maxWidth: 350, maxHeight: 196, resizingBehavior: SCALE) {
+            fluid {
               ...GatsbyContentfulFluid_tracedSVG
             }
           }
