@@ -1,1 +1,2 @@
 yarn run deploy
+test
