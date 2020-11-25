@@ -1,7 +1,7 @@
 #projectContainer {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 350px 350px;
+  grid-template-rows: 250px 250px;
   grid-gap: 20px;
 }
 
@@ -9,6 +9,7 @@
   max-height: 350px;
   max-width: 580px;
   z-index: 2;
+  height: 100%;
 }
 
 .projectPreview {
